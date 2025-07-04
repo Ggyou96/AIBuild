@@ -1,0 +1,40 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <path
+      android:fillColor="@color/purple_40"
+      android:pathData="M54,54m-20,0a20,20 0,1 1,40 0a20,20 0,1 1,-40 0"/>
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M54,44L54,44A6,6 0,0 1,60 50L60,58A6,6 0,0 1,54 64L54,64A6,6 0,0 1,48 58L48,50A6,6 0,0 1,54 44z"/>
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M44,50h4v8h-4z"/>
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M60,50h4v8h-4z"/>
+  <path
+      android:fillColor="@color/purple_40"
+      android:pathData="M49,52h2v4h-2z"/>
+  <path
+      android:fillColor="@color/purple_40"
+      android:pathData="M57,52h2v4h-2z"/>
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M46,62h16v2h-16z"/>
+  <!-- AI Brain Icon -->
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M54,40m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0"/>
+  <path
+      android:fillColor="@color/white"
+      android:pathData="M52,42h4v2h-4z"/>
+  <!-- Mobile Device Outline -->
+  <path
+      android:fillColor="@android:color/transparent"
+      android:strokeColor="@color/white"
+      android:strokeWidth="2"
+      android:pathData="M40,35h28c2,0 4,2 4,4v30c0,2 -2,4 -4,4H40c-2,0 -4,-2 -4,-4V39c0,-2 2,-4 4,-4z"/>
+</vector>

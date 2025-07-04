@@ -1,7 +1,9 @@
 <resources>
+    <!-- App Information -->
     <string name="app_name">AIBuild</string>
+    <string name="app_description">World\'s First Mobile-First AI Development Platform</string>
     
-    <!-- Navigation -->
+    <!-- Navigation Labels -->
     <string name="nav_home">Home</string>
     <string name="nav_idev_space">IDev Space</string>
     <string name="nav_settings">Settings</string>
@@ -24,10 +26,16 @@
     <!-- Settings -->
     <string name="settings_title">Settings</string>
     <string name="settings_subtitle">Configure your AIBuild experience</string>
+    <string name="settings_developer_mode">Developer Mode</string>
+    <string name="settings_api_keys">API Keys</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_about">About</string>
     
     <!-- Common Actions -->
     <string name="action_back">Back</string>
     <string name="action_send">Send</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_switch">Switch</string>
     <string name="action_save">Save</string>
     <string name="action_cancel">Cancel</string>
     <string name="action_ok">OK</string>
@@ -37,9 +45,48 @@
     <string name="agent_teammate">Teammate</string>
     <string name="agent_builder">Builder</string>
     
+    <!-- Agent Descriptions -->
+    <string name="agent_planner_desc">Project Planning and Requirements Analysis</string>
+    <string name="agent_teammate_desc">Project Analysis and Developer Guidance</string>
+    <string name="agent_builder_desc">Code Implementation and Development</string>
+    
     <!-- Content Descriptions -->
     <string name="cd_navigation_icon">Navigation icon</string>
     <string name="cd_agent_icon">Agent icon</string>
     <string name="cd_chat_send">Send message</string>
     <string name="cd_rating_star">Rating star</string>
+    
+    <!-- API Keys -->
+    <string name="api_key_google">Google API Key</string>
+    <string name="api_key_openai">OpenAI API Key</string>
+    <string name="api_key_anthropic">Anthropic API Key</string>
+    <string name="api_key_openrouter">OpenRouter API Key</string>
+    <string name="api_key_ollama">Ollama API Key</string>
+    
+    <!-- Monitoring -->
+    <string name="monitoring_title">Monitoring &amp; Diagnostics</string>
+    <string name="event_logs">Event Logs</string>
+    <string name="performance_metrics">Performance Metrics</string>
+    <string name="system_info">System Information</string>
+    
+    <!-- Agent Workspace -->
+    <string name="agent_workspace">Agent Workspace</string>
+    <string name="chat_panel">Chat Panel</string>
+    <string name="agent_status">Agent Status</string>
+    
+    <!-- Error Messages -->
+    <string name="error_network">Network connection error</string>
+    <string name="error_generic">An error occurred</string>
+    <string name="error_agent_processing">Agent processing failed</string>
+    
+    <!-- Success Messages -->
+    <string name="success_saved">Successfully saved</string>
+    <string name="success_agent_switched">Agent switched successfully</string>
+    
+    <!-- Content Descriptions for Accessibility -->
+    <string name="cd_app_logo">AIBuild logo</string>
+    <string name="cd_agent_avatar">Agent avatar</string>
+    <string name="cd_send_message">Send message</string>
+    <string name="cd_reset_agent">Reset agent conversation</string>
+    <string name="cd_switch_agent">Switch to different agent</string>
 </resources>

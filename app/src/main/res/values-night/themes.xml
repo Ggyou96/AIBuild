@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- AIBuild Dark Theme -->
+    <style name="Base.Theme.AIBuild" parent="Theme.Material3.DynamicColors.DayNight">
+        <!-- Customize your dark theme here. -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/purple_80</item>
+        <item name="colorOnPrimary">@color/purple_10</item>
+        <item name="colorPrimaryContainer">@color/purple_40</item>
+        <item name="colorOnPrimaryContainer">@color/purple_90</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/purple_grey_80</item>
+        <item name="colorOnSecondary">@color/purple_grey_10</item>
+        <item name="colorSecondaryContainer">@color/purple_grey_40</item>
+        <item name="colorOnSecondaryContainer">@color/purple_grey_90</item>
+        
+        <!-- Tertiary brand color -->
+        <item name="colorTertiary">@color/pink_80</item>
+        <item name="colorOnTertiary">@color/pink_10</item>
+        <item name="colorTertiaryContainer">@color/pink_40</item>
+        <item name="colorOnTertiaryContainer">@color/pink_90</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorOnErrorContainer">@color/on_error_container</item>
+        
+        <!-- Surface colors -->
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/dark_on_surface</item>
+        <item name="colorSurfaceVariant">@color/surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/on_surface_variant</item>
+        <item name="colorSurfaceInverse">@color/light_surface</item>
+        <item name="colorOnSurfaceInverse">@color/light_on_surface</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/dark_background</item>
+        <item name="colorOnBackground">@color/dark_on_background</item>
+        
+        <!-- Outline colors -->
+        <item name="colorOutline">@color/outline</item>
+        <item name="colorOutlineVariant">@color/outline_variant</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        
+        <!-- Enable edge-to-edge display -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+    
+    <!-- Dialog theme for dark mode -->
+    <style name="Theme.AIBuild.Dialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="android:windowMinWidthMajor">@android:dimen/dialog_min_width_major</item>
+        <item name="android:windowMinWidthMinor">@android:dimen/dialog_min_width_minor</item>
+    </style>
+    
+    <!-- Bottom sheet theme for dark mode -->
+    <style name="Theme.AIBuild.BottomSheet" parent="ThemeOverlay.Material3.BottomSheetDialog">
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>
