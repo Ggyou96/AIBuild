@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">AIBuild</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_idev_space">IDev Space</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Home Screen -->
+    <string name="home_title">AIBuild</string>
+    <string name="home_subtitle">World\'s First Mobile-First AI Development Platform</string>
+    <string name="chat_panel_title">AI Assistant</string>
+    <string name="live_projects_title">Live Projects</string>
+    <string name="community_apps_title">Top Community Apps</string>
+    <string name="project_description_title">About AIBuild Platform</string>
+    
+    <!-- IDev Space -->
+    <string name="idev_space_title">IDev Space</string>
+    <string name="idev_space_subtitle">Integrated Development Environment</string>
+    <string name="files_manager_title">Files Manager</string>
+    <string name="monitoring_diagnostics_title">Monitoring &amp; Diagnostics</string>
+    <string name="agents_workspace_title">Agents Workspace</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Configure your AIBuild experience</string>
+    
+    <!-- Common Actions -->
+    <string name="action_back">Back</string>
+    <string name="action_send">Send</string>
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_ok">OK</string>
+    
+    <!-- Agent Names -->
+    <string name="agent_planner">Planner</string>
+    <string name="agent_teammate">Teammate</string>
+    <string name="agent_builder">Builder</string>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_navigation_icon">Navigation icon</string>
+    <string name="cd_agent_icon">Agent icon</string>
+    <string name="cd_chat_send">Send message</string>
+    <string name="cd_rating_star">Rating star</string>
+</resources>
