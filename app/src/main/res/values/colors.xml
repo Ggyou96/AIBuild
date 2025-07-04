@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Color System -->
+    
+    <!-- Primary Colors -->
+    <color name="purple_40">#FF6650A4</color>
+    <color name="purple_80">#FFD0BCFF</color>
+    <color name="purple_90">#FFEADDFF</color>
+    <color name="purple_10">#FF21005D</color>
+    
+    <!-- Secondary Colors -->
+    <color name="purple_grey_40">#FF625B71</color>
+    <color name="purple_grey_80">#FFCCC2DC</color>
+    <color name="purple_grey_90">#FFE8DEF8</color>
+    <color name="purple_grey_10">#FF1D192B</color>
+    
+    <!-- Tertiary Colors -->
+    <color name="pink_40">#FF7D5260</color>
+    <color name="pink_80">#FFEFB8C8</color>
+    <color name="pink_90">#FFFFD8E4</color>
+    <color name="pink_10">#FF31111D</color>
+    
+    <!-- Error Colors -->
+    <color name="error">#FFBA1A1A</color>
+    <color name="error_container">#FFFFDAD6</color>
+    <color name="on_error">#FFFFFFFF</color>
+    <color name="on_error_container">#FF410002</color>
+    
+    <!-- Surface Colors -->
+    <color name="surface_variant">#FFE7E0EC</color>
+    <color name="on_surface_variant">#FF49454F</color>
+    <color name="outline">#FF79747E</color>
+    <color name="outline_variant">#FFCAC4D0</color>
+    
+    <!-- Background Colors -->
+    <color name="light_background">#FFFEFBFF</color>
+    <color name="light_on_background">#FF1C1B1F</color>
+    <color name="dark_background">#FF1C1B1F</color>
+    <color name="dark_on_background">#FFE6E1E5</color>
+    
+    <!-- Surface Colors -->
+    <color name="light_surface">#FFFEFBFF</color>
+    <color name="light_on_surface">#FF1C1B1F</color>
+    <color name="dark_surface">#FF1C1B1F</color>
+    <color name="dark_on_surface">#FFE6E1E5</color>
+    
+    <!-- Basic Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="transparent">#00000000</color>
+    
+    <!-- Agent-specific colors for visual differentiation -->
+    <color name="planner_agent_color">#FF3F51B5</color>  <!-- Deep Blue for planning -->
+    <color name="teammate_agent_color">#FF009688</color> <!-- Teal for collaboration -->
+    <color name="builder_agent_color">#FFFF5722</color>  <!-- Orange for building -->
+    
+    <!-- Agent color variants -->
+    <color name="planner_agent_light">#FF7986CB</color>
+    <color name="planner_agent_dark">#FF303F9F</color>
+    <color name="teammate_agent_light">#FF4DB6AC</color>
+    <color name="teammate_agent_dark">#FF00695C</color>
+    <color name="builder_agent_light">#FFFF8A65</color>
+    <color name="builder_agent_dark">#FFE64A19</color>
+    
+    <!-- Semantic Colors for UI states -->
+    <color name="success">#FF4CAF50</color>
+    <color name="success_light">#FF81C784</color>
+    <color name="success_dark">#FF388E3C</color>
+    
+    <color name="warning">#FFFF9800</color>
+    <color name="warning_light">#FFFFB74D</color>
+    <color name="warning_dark">#FFF57C00</color>
+    
+    <color name="info">#FF2196F3</color>
+    <color name="info_light">#FF64B5F6</color>
+    <color name="info_dark">#FF1976D2</color>
+    
+    <!-- IDE Space specific colors -->
+    <color name="code_editor_background">#FF263238</color>
+    <color name="syntax_highlight_keyword">#FFBB86FC</color>
+    <color name="syntax_highlight_string">#FF98C379</color>
+    <color name="syntax_highlight_comment">#FF5C6370</color>
+    <color name="syntax_highlight_number">#FFE06C75</color>
+    <color name="syntax_highlight_function">#FF61AFEF</color>
+    
+    <!-- Chat UI Colors -->
+    <color name="chat_user_bubble">#FFE3F2FD</color>
+    <color name="chat_agent_bubble">#FFF3E5F5</color>
+    <color name="chat_system_bubble">#FFF1F8E9</color>
+    <color name="chat_error_bubble">#FFFCE4EC</color>
+    
+    <!-- Status Colors -->
+    <color name="status_active">#FF4CAF50</color>
+    <color name="status_inactive">#FF9E9E9E</color>
+    <color name="status_processing">#FFFF9800</color>
+    <color name="status_error">#FFF44336</color>
+    
+    <!-- Card and Surface Colors -->
+    <color name="card_background">#FFFFFFFF</color>
+    <color name="card_background_dark">#FF2C2C2C</color>
+    <color name="elevated_surface">#FFF5F5F5</color>
+    <color name="elevated_surface_dark">#FF363636</color>
+    
+    <!-- Divider and Border Colors -->
+    <color name="divider_light">#FFE0E0E0</color>
+    <color name="divider_dark">#FF424242</color>
+    <color name="border_light">#FFBDBDBD</color>
+    <color name="border_dark">#FF616161</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary_light">#DE000000</color>
+    <color name="text_secondary_light">#99000000</color>
+    <color name="text_disabled_light">#61000000</color>
+    
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    <color name="text_disabled_dark">#80FFFFFF</color>
+    
+    <!-- Legacy colors for backward compatibility -->
+    <color name="colorPrimary">@color/purple_40</color>
+    <color name="colorPrimaryVariant">@color/purple_80</color>
+    <color name="colorOnPrimary">@color/white</color>
+    <color name="colorSecondary">@color/purple_grey_40</color>
+    <color name="colorSecondaryVariant">@color/purple_grey_80</color>
+    <color name="colorOnSecondary">@color/white</color>
+    <color name="colorSurface">@color/light_surface</color>
+    <color name="colorOnSurface">@color/light_on_surface</color>
+    <color name="colorBackground">@color/light_background</color>
+    <color name="colorOnBackground">@color/light_on_background</color>
+</resources>
