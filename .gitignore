@@ -1,0 +1,4 @@
+# Android/Gradle defaults
+.gradle/
+build/
+local.properties
